@@ -1,0 +1,35 @@
+name: Fetch Eurojackpot results
+
+on:
+  schedule:
+    # Draws are Tue and Fri ~18:00 UTC; check Wed and Sat morning
+    - cron: "0 6 * * 3,6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Fetch results
+        run: python fetch_results.py
+
+      - name: Commit results
+        run: |
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No new results"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: eurojackpot results $(date -u '+%Y-%m-%d')"
+          git push
