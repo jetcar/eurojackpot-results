@@ -1,6 +1,109 @@
 {
-  "total_draws": 121,
+  "total_draws": 122,
   "draws": [
+    {
+      "id": "357c24aa-3040-48db-a05b-b4c08efee9ac",
+      "number": 1005,
+      "date_time": "2026-10-30T19:00:00Z",
+      "main_numbers": [
+        21,
+        26,
+        37,
+        39,
+        42
+      ],
+      "euro_numbers": [
+        5,
+        7
+      ],
+      "prize_classes": [
+        {
+          "code": "GV1",
+          "name": "Genoa win class 1",
+          "amount_cents": 0,
+          "currency": "EUR",
+          "winners": 0
+        },
+        {
+          "code": "GV2",
+          "name": "Genoa win class 2",
+          "amount_cents": 98360350,
+          "currency": "EUR",
+          "winners": 0
+        },
+        {
+          "code": "GV3",
+          "name": "Genoa win class 3",
+          "amount_cents": 13867660,
+          "currency": "EUR",
+          "winners": 0
+        },
+        {
+          "code": "GV4",
+          "name": "Genoa win class 4",
+          "amount_cents": 446330,
+          "currency": "EUR",
+          "winners": 0
+        },
+        {
+          "code": "GV5",
+          "name": "Genoa win class 5",
+          "amount_cents": 32490,
+          "currency": "EUR",
+          "winners": 4
+        },
+        {
+          "code": "GV6",
+          "name": "Genoa win class 6",
+          "amount_cents": 12950,
+          "currency": "EUR",
+          "winners": 9
+        },
+        {
+          "code": "GV7",
+          "name": "Genoa win class 7",
+          "amount_cents": 12510,
+          "currency": "EUR",
+          "winners": 8
+        },
+        {
+          "code": "GV8",
+          "name": "Genoa win class 8",
+          "amount_cents": 2000,
+          "currency": "EUR",
+          "winners": 162
+        },
+        {
+          "code": "GV9",
+          "name": "Genoa win class 9",
+          "amount_cents": 2000,
+          "currency": "EUR",
+          "winners": 153
+        },
+        {
+          "code": "GV10",
+          "name": "Genoa win class 10",
+          "amount_cents": 1900,
+          "currency": "EUR",
+          "winners": 277
+        },
+        {
+          "code": "GV11",
+          "name": "Genoa win class 11",
+          "amount_cents": 960,
+          "currency": "EUR",
+          "winners": 832
+        },
+        {
+          "code": "GV12",
+          "name": "Genoa win class 12",
+          "amount_cents": 960,
+          "currency": "EUR",
+          "winners": 2391
+        }
+      ],
+      "info": "Sellel loosimisel jackpot’i välja ei loositud. 5+1 võidutasandil oli 2 võitjat, võidupiletid osteti Norrast ja Saksamaalt. 5+0 võidutasandil oli 8 võitjat, võidupiletid osteti Norrast (2), Rootsist (1), Saksamaalt (2), Hollandist (1), Soomest (1) ja Taanist (1).\r\n\r\nEnnustatav jackpot 3. novembri loosimiseks on 33 miljonit eurot.\r\n\r\nÕnnitleme võitjaid! "
+    },
     {
       "id": "89b8e2f5-3625-487a-9712-f6a63a0f31f5",
       "number": 1004,
